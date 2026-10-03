@@ -40,7 +40,7 @@ docker tag emailservice:latest 307857433476.dkr.ecr.ap-south-1.amazonaws.com/ema
         stage('Update Deployment file') {
             environment {
                 GIT_REPO_NAME = "micro-service"
-                GIT_EMAIL = "MalharKt@gmail.com"
+                GIT_EMAIL = "malharkauthale2019@gmail.com"
                 GIT_USER_NAME = "MalharKt"
                 IMAGE_NAME = "emailservice"
                 REPO_URL = "307857433476.dkr.ecr.ap-south-1.amazonaws.com/emailservice"

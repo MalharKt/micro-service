@@ -42,7 +42,7 @@ aws ecr get-login-password --region ap-south-1 | docker login --username AWS --p
         stage('Update Deployment file') {
             environment {
                 GIT_REPO_NAME = "micro-service"
-                GIT_EMAIL = "MalharKt@gmail.com"
+                GIT_EMAIL = "malharkauthale2019@gmail.com"
                 GIT_USER_NAME = "MalharKt"
                 IMAGE_NAME = "shippingservice"
                 REPO_URL = "307857433476.dkr.ecr.ap-south-1.amazonaws.com/shippingservice"
